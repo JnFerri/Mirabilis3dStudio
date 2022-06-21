@@ -1,0 +1,40 @@
+header{
+    background-color: rgb(221, 220, 220);
+}
+
+.header__imagem{
+    height: 100px;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    align-items: center;
+}
+
+.header__lista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__lista li{
+    margin-left: 50px;
+    
+}
+
+.header__link{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: 1px white;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.header__link:hover{
+    font-size: 28px;
+}
