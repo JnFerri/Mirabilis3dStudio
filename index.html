@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/animacao.css">
+    <link rel="stylesheet" href="assets/css/descricao.css">
 </head>
 <body>
     <header>
@@ -24,11 +26,17 @@
     </header>
 
     <main>
-        <div class="animacao"></div>
-        <div>
-            <h2>Mirabilis 3D studio</h2>
-            <p></p>
-            <p></p>
+        <div class="animacao">
+            <video autoplay loop>
+                <source src="assets/videos/video-banner.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="descricao__container">
+            <h2 class="descricao__titulo">Mirabilis 3D studio</h2>
+            <div class="descricao__paragrafos">
+                <p class="descricao__paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sit, voluptate ipsum nihil aliquid delectus quibusdam. Quos laborum obcaecati illo assumenda alias ipsam reprehenderit, iste cum modi veritatis vero? Atque.,Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odio perferendis labore, quia placeat veniam assumenda harum ab? Dignissimos nesciunt sequi nisi eos ratione, veritatis libero in eligendi rem ipsam?</p>
+                <p class="descricao__paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, nam qui tenetur soluta totam incidunt alias explicabo quibusdam, illum magnam optio at aliquam libero ipsum sequi magni quod dolores culpa.</p>
+            </div>
         </div>
     </main>
 

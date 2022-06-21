@@ -1,0 +1,20 @@
+.descricao__container{
+    background-color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 1rem 0;
+    padding: 0 5%;
+    
+}
+
+.descricao__titulo{
+    font-size: 150px;
+    width: 50% ;
+}
+.descricao__paragrafos{
+    width: 40%;
+}
+.descricao__paragrafo {
+    font-size: 24px;
+}
