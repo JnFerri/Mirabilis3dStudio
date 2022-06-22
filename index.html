@@ -15,9 +15,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
 </head>
-<body onload="loading()">
-    <div id="load"></div>
+<body>
+    
     <header>
+        <div class="animacao" id="load">
+            <video id="video" loop preload="auto" autoplay>
+                <source src="assets/videos/video-banner.mp4" type="video/mp4">
+            </video>
+        </div>
         <div class="header__container">
         <img class="header__imagem" src="assets/imagens/logo.png" alt="logo Mirabilis">
         <nav class="header__nav">
@@ -27,15 +32,12 @@
                 <li><a href="assets/paginas/contato.html" class="header__link">contato</a></li>
             </ul>
         </nav>
+        
         </div>
+        
     </header>
 
     <main>
-        <div class="animacao">
-            <video autoplay loop src="assets/videos/video-banner.mp4">
-                
-            </video>
-        </div>
         <section class="descricao__container">
            <div class="descricao__titulo"> 
             <h2 class="descricao__titulo-h2">Mirabilis 3D studio</h2>
@@ -47,10 +49,11 @@
         </section>
         <section class="trabalhos__container">
             <div class="trabalhos__imagens">
-                <img src="assets/imagens/imagens para lançamento prato sintesi/Divulgação_sintesi (8).jpg" alt="imagem prato sintesi" class="trabalhos__imagem">
+                <img src="assets/imagens/imagens para lançamento prato sintesi/Sem título-1.png" alt="imagem prato sintesi" class="trabalhos__imagem">
                 <div class="trabalhos__descricao">
                     <h3 class="trabalhos__titulo">Imagens</h3>
                     <p class="trabalhos__paragrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis vel, quo ullam, ad at quidem ut beatae consequuntur, iste aspernatur. Suscipit deserunt tempore ab facere nihil, sequi laborum quibusdam!</p>
+                    <a href="assets/paginas/portifolio.html" class="trabalhos__botao">Veja alguns Trabalhos ---></a>
                 </div>
             </div>
         </section>

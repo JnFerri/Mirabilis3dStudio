@@ -1,5 +1,6 @@
 header{
-    background-color: whitesmoke;
+ background-color: rgba(255, 255, 255, 0);
+
 }
 
 .header__imagem{
@@ -11,6 +12,9 @@ header{
     justify-content: space-between;
     margin: 0 5%;
     align-items: center;
+    position: absolute;
+    top: 0%;
+    width: 90%;
 }
 
 .header__lista{
@@ -29,7 +33,7 @@ header{
     padding: 5px 10px;
     font-size: 24px;
     text-transform: uppercase;
-    border: 1px white;
+    border: 1px solid white;
     background-color: black;
     border-radius: 10px;
     transition: 0.3s;
