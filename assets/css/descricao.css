@@ -5,16 +5,27 @@
     justify-content: space-between;
     margin: 1rem 0;
     padding: 0 5%;
+    align-items: center;
     
 }
 
 .descricao__titulo{
-    font-size: 150px;
-    width: 50% ;
+    width: 60% ;
+}
+.descricao__titulo-h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 200px;
 }
 .descricao__paragrafos{
-    width: 40%;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    width: 80%;
+    
 }
 .descricao__paragrafo {
+    font-family: 'Teko', sans-serif;
     font-size: 24px;
 }
+
