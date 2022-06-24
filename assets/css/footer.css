@@ -1,0 +1,70 @@
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer__mirabilis{
+    width: 30%;
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__lista1 li{
+    display: block;
+}
+.footer__logo{
+    width: 150px;
+    margin-left: 10px;
+}
+
+.footer__name{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer__contato{
+    width: 40%;
+    margin-right: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__lista2{
+    display: block;
+}
+
+.footer__lista2 li{
+    display: flex;
+    align-items: center;
+}
+
+.footer__contato{
+    font-size: 22px;
+}
+
+.footer__escrita{
+    font-size: 18px;
+}
+
+.footer__redes{
+    width: 30px;
+    padding: 5px 5px;
+}
+
+.footer__link{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.footer__link:hover{
+    font-size: 20px;
+    text-shadow: 3px 3px 3px rgb(250, 199, 104);
+}

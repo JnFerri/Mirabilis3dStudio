@@ -4,11 +4,11 @@
     flex-direction: column;
     width: 100%;
     background: rgb(0,0,0);
+    padding: 3rem 0;
     
 }
 
 .trabalhos__imagens{
-    margin-top: 3rem;
     display: flex;
     align-items: left;
     justify-content: space-between;
@@ -34,7 +34,7 @@
 }
 
 .trabalhos__paragrafo{
-    font-family: 'Teko', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 26px;
     text-align: justify;
     color: white;
@@ -43,9 +43,10 @@
 
 
 .trabalhos__botao{
+    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     font-size: 22px;
-    color: white;
+    color: rgb(250, 199, 104);
     flex-grow: 1;
 }
 
