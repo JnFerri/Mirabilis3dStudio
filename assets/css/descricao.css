@@ -23,7 +23,9 @@
     
 }
 .descricao__paragrafo {
-    font-family: 'Teko', sans-serif;
-    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: justify;
 }
 
