@@ -19,85 +19,87 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body onload="loading()">
     
-    <header>
-        <div class="animacao" id="load">
-            <video id="video" loop preload="auto" autoplay>
-                <source src="assets/videos/video-banner.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="header__container">
-        <img class="header__imagem" src="assets/imagens/logo.png" alt="logo Mirabilis">
-        <nav class="header__nav">
-            <ul class="header__lista" type="none">
-                <li><a href="index.html" class="header__link">home</a></li>
-                <li><a href="assets/paginas/portifolio.html" class="header__link">portifólio</a></li>
-                <li><a href="assets/paginas/contato.html" class="header__link">contato</a></li>
-            </ul>
-        </nav>
-        
-        </div>
-        
-    </header>
-
-    <main>
-        <section class="descricao__container">
-           <div class="descricao__titulo"> 
-            <h2 class="descricao__titulo-h2">Mirabilis 3D studio</h2>
-           </div>
-            <div class="descricao__paragrafos">
-                <p class="descricao__paragrafo">Seja bem-vindo a Mirabilis 3D Studio, Empresa com o intuito de desenvolver trabalhos de alta qualidade em forma de imagens e animações baseado em 3D de produtos, podendo ser utilizados em vários tipos de campanhas de marketing. Transforme sua ideia ou projeto em lindas imagens e vídeos para que seus clientes vejam o profissionalismo da sua empresa.</p>
-                
+    <div id="preloader"><img src="assets/imagens/Loadingsome.gif" alt=""></div>
+    <div id="conteudo" style="visibility: hidden ;">
+        <header>
+            <div class="animacao" id="load">
+                <video id="video" loop autoplay>
+                    <source src="assets/videos/video-banner.mp4" type="video/mp4">
+                </video>
             </div>
-        </section>
-        <section class="trabalhos__container">
-            <div class="trabalhos__imagens">
-                <img src="assets/imagens/imagens para lançamento prato sintesi/Sem título-1.png" alt="imagem prato sintesi" class="trabalhos__imagem">
-                <div class="trabalhos__descricao">
-                    <h3 class="trabalhos__titulo">Imagens</h3>
-                    <p class="trabalhos__paragrafo">Utilize renderizações de imagens dos seus produtos para promove-los em campanhas de marketing, utilizando-as em catálogos, site, banners, etc...</p>
-                    <p class="trabalhos__paragrafo">Mostre ao seu cliente o profissionalismo da sua empresa com belas demonstrações do seu produto.</p>
-                    <a href="assets/paginas/portifolio.html" class="trabalhos__botao">Veja alguns Trabalhos ---></a>
+            <div class="header__container">
+            <img class="header__imagem" src="assets/imagens/logo.png" alt="logo Mirabilis">
+            <nav class="header__nav">
+                <ul class="header__lista" type="none">
+                    <li><a href="index.html" class="header__link">home</a></li>
+                    <li><a href="assets/paginas/portifolio.html" class="header__link">portifólio</a></li>
+                    <li><a href="assets/paginas/contato.html" class="header__link">contato</a></li>
+                </ul>
+            </nav>
+        
+            </div>
+        
+        </header>
+        <main>
+            <section class="descricao__container">
+               <div class="descricao__titulo">
+                <h2 class="descricao__titulo-h2">Mirabilis 3D studio</h2>
+               </div>
+                <div class="descricao__paragrafos">
+                    <p class="descricao__paragrafo">Seja bem-vindo a Mirabilis 3D Studio, Empresa com o intuito de desenvolver trabalhos de alta qualidade em forma de imagens e animações baseado em 3D de produtos, podendo ser utilizados em vários tipos de campanhas de marketing. Transforme sua ideia ou projeto em lindas imagens e vídeos para que seus clientes vejam o profissionalismo da sua empresa.</p>
+        
                 </div>
-                </div>
-                    <div class="trabalhos__video">
-                        <div class="trabalhos__descricao">
-                            <h3 class="trabalhos__titulo">Videos</h3>
-                            <p class="trabalhos__paragrafo">Demonstrar o seu produto da forma mais eficiente para seu cliente é nossa responsabilidade. Com a utilização de animações 3d, demonstre as principais qualidades, detalhes e funcionalidades do seu produto.</p>
-                            <a href="assets/paginas/portifolio.html" class="trabalhos__botao">Veja alguns Trabalhos ---></a>
-                        </div>
-                        <video src="assets/videos/sintesi/sintesi 1.mp4" controls></video>
+            </section>
+            <section class="trabalhos__container">
+                <div class="trabalhos__imagens">
+                    <img src="assets/imagens/imagens para lançamento prato sintesi/Sem título-1.png" alt="imagem prato sintesi" class="trabalhos__imagem">
+                    <div class="trabalhos__descricao">
+                        <h3 class="trabalhos__titulo">Imagens</h3>
+                        <p class="trabalhos__paragrafo">Utilize renderizações de imagens dos seus produtos para promove-los em campanhas de marketing, utilizando-as em catálogos, site, banners, etc...</p>
+                        <p class="trabalhos__paragrafo">Mostre ao seu cliente o profissionalismo da sua empresa com belas demonstrações do seu produto.</p>
+                        <a href="assets/paginas/portifolio.html" class="trabalhos__botao">Veja alguns Trabalhos ---></a>
                     </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer__container">
-            <div class="footer__mirabilis">
-                <ul class="footer__lista1">
-                    <li>
-                        <img class="footer__logo" src="assets/imagens/logo.png" alt="logo mirabilis 3D studio">
-                    </li>
-                    <li><h4 class="footer__name">Mirabilis 3D studio 2022&copy;</h4></li>
-                </ul>
+                    </div>
+                        <div class="trabalhos__video">
+                            <div class="trabalhos__descricao">
+                                <h3 class="trabalhos__titulo">Videos</h3>
+                                <p class="trabalhos__paragrafo">Demonstrar o seu produto da forma mais eficiente para seu cliente é nossa responsabilidade. Com a utilização de animações 3d, demonstre as principais qualidades, detalhes e funcionalidades do seu produto.</p>
+                                <a href="assets/paginas/portifolio.html" class="trabalhos__botao">Veja alguns Trabalhos ---></a>
+                            </div>
+                            <video src="assets/videos/sintesi/sintesi 1.mp4" controls></video>
+                        </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer__container">
+                <div class="footer__mirabilis">
+                    <ul class="footer__lista1">
+                        <li>
+                            <img class="footer__logo" src="assets/imagens/logo.png" alt="logo mirabilis 3D studio">
+                        </li>
+                        <li><h4 class="footer__name">Mirabilis 3D studio 2022&copy;</h4></li>
+                    </ul>
+                </div>
+                <div class="footer__contato">
+                    <ul class="footer__lista2">
+                        <li><h4 class="footer__contato-titulo">Contato :</h4></li>
+                        <li>
+                            <img class="footer__redes" src="assets/imagens/email.png" alt="email"> <p class="footer__escrita">mirabilis3d@gmail.com</p>
+                        </li>
+                        <li>
+                            <img  class="footer__redes"src="assets/imagens/whatsapp.png" alt="whatsapp"><p class="footer__escrita">(49)99811-6251</p>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="https://www.instagram.com/mirabilis3dstudio/" target="_blank"> <img class="footer__redes" src="assets/imagens/instagram.png" alt="instagram"> Mirabilis 3D Studio</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer__contato">
-                <ul class="footer__lista2">
-                    <li><h4 class="footer__contato-titulo">Contato :</h4></li>
-                    <li>
-                        <img class="footer__redes" src="assets/imagens/email.png" alt="email"> <p class="footer__escrita">mirabilis3d@gmail.com</p>
-                    </li>
-                    <li>
-                        <img  class="footer__redes"src="assets/imagens/whatsapp.png" alt="whatsapp"><p class="footer__escrita">(49)99811-6251</p>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="https://www.instagram.com/mirabilis3dstudio/" target="_blank"> <img class="footer__redes" src="assets/imagens/instagram.png" alt="instagram"> Mirabilis 3D Studio</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="assets/js/index.js"></script>
 </body>
 </html>
