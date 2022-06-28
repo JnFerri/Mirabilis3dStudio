@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/descricao.css">
     <link rel="stylesheet" href="assets/css/trabalhos.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/portifolio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
@@ -28,11 +29,24 @@
     </header>
 
     <main>
-
-            <div id="imagemContainer" class="imagem__container">
-                    
-
+        <section class="portifolio">
+                <h2 class="trabalhos__titulo">Imagens :</h2>
+                <div class="portifolio__container">
+                        <input type="button" id="botaoAnterior" class="portifolio__botao" value="<">
+                    <div id="imagemPortifolio" class="portifolio__imagem">
+                        <img src="assets/imagens/avichain/G.jpg" alt="imagem produto">
+                    </div>
+                        <input type="button" id="botaoProximo" class="portifolio__botao" value=">">
+                </div>
+                <h2 class="trabalhos__titulo">videos :</h2>
+                <div class="portifolio__container">
+                    <input type="button" id="botaoAnterior" class="portifolio__botao" value="<">
+                <div id="videoPortifolio" class="portifolio__video">
+                    <video src="assets/videos/avichain/Curva.mp4" controls></video>
+                </div>
+                    <input type="button" id="botaoProximo" class="portifolio__botao" value=">">
             </div>
+        </section>
 
     </main>
     
