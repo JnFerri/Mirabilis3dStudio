@@ -4,16 +4,19 @@ header{
 
 .header__imagem{
     height: 100px;
+    background-color: rgba(240, 240, 240, 0.185);
+    border-radius: 0px 0px 10px 10px;
 }
 
 .header__container{
     display: flex;
     justify-content: space-between;
-    margin: 0 5%;
     align-items: center;
     position: absolute;
-    top: 0%;
+    top:  0%;
     width: 90%;
+    margin: 0 5%;
+    
 }
 
 .header__lista{
