@@ -20,19 +20,30 @@ main{
     
 }
 
-.portifolio__imagem {
-    width: 70%;
+.portifolio__imagens {
+    width: 100%;
     background-color: white;
-    border-radius: 60px;
-    padding: 30px 30px;
-
-
+    border-radius: 45px;
 }
 
-.portifolio__imagem img{
-width: 100%;
-border-radius: 40px;
+.portifolio__imagem {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    
 
+    
+}
+
+.img__portifolio{
+    width: 24%;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+.img__portifolio:hover{
+    transform: scale(1.3);
 }
 
 .portifolio__botao{
