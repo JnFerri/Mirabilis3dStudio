@@ -9,10 +9,38 @@
 
 }
 
-.contato_formulario{
+.contato__formulario{
     display: flex;
     flex-direction: column;
     width: 40%;
     
 }
 
+.contato__input{
+margin-top: 10px;
+padding: 5px 5px;
+width: 50%;
+border-radius: 5px;
+}
+
+.input__msg{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.formulario__botao{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px 0;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    transition: 0.2s;
+    
+}
+
+.formulario__botao:hover{
+    transform: scale(1.15);
+    color: rgb(141, 108, 46);
+    
+}
