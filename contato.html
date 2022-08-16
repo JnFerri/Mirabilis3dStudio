@@ -30,14 +30,21 @@
 
     <main>
         <section class="contato">
+            <h2 class="contato__titulo">Contato:</h2>
             <div class="contato__container">
-                <h2 class="trabalhos__titulo">Contato:</h2>
                 <form action="post" class="contato__formulario">
                     <input type="name" class="contato__input" placeholder="Nome">
                     <input type="email" placeholder="Email" class="contato__input">
                     <textarea name="mensagem" id="msg" cols="40" rows="10" placeholder="Mensagem" class="input__msg"></textarea>
                     <input type="submit" name="Enviar" id="submitForm" class="formulario__botao">
                 </form>
+                <div class="contato__whats">
+                    <img src="assets/imagens/suporte-ao-cliente.png" alt="suporte ao cliente" class="img__contato">
+                    
+                    <h3 >Ou entre em contato através do whatsapp :
+                    </h3>
+                    <a class="contato__botao-whats" href="http://api.whatsapp.com/send?1=pt_BR&phone=55049998116251"><img src="assets/imagens/whatsapp.png"> Clique aqui</a>
+                </div>
             </div>
         </section>
     </main>

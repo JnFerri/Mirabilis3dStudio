@@ -1,11 +1,22 @@
 .contato{
     background-color: black;
     margin-top: 100px;
+   
+}
+.contato__titulo{
+    margin:0 5% 0 5%;
+    font-family: 'Teko', sans-serif;
+    font-size: 100px;
+    color: white;
+    padding-top: 2rem;
 }
 
 .contato__container{
     margin: 0 5%;
     padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -43,4 +54,49 @@ border-radius: 5px;
     transform: scale(1.15);
     color: rgb(141, 108, 46);
     
+}
+
+.img__contato{
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px 5px;
+    width: 250px;
+    margin-bottom: 40px;
+}
+.contato__whats{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.contato__whats h3{
+    margin-bottom: 40px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contato__botao-whats{
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: auto;
+    padding: 10px 10px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    background-color: white;
+    
+}
+
+.contato__botao-whats img{
+    width: 50px;
+}
+
+.contato__botao-whats:hover{
+    transform: scale(1.15);
+    color: rgb(141, 108, 46);
+    transition: 0.2s;
 }

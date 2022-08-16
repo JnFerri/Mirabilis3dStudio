@@ -18,7 +18,7 @@ export function footerLoad(){
                     <img class="footer__redes" src="assets/imagens/email.png" alt="email"> <p class="footer__escrita">mirabilis3d@gmail.com</p>
                 </li>
                 <li>
-                    <img  class="footer__redes"src="assets/imagens/whatsapp.png" alt="whatsapp"><p class="footer__escrita">(49)99811-6251</p>
+                    <a class="footer__link" href="http://api.whatsapp.com/send?1=pt_BR&phone=55049998116251" target="_blank"> <img  class="footer__redes"src="assets/imagens/whatsapp.png" alt="whatsapp"><p class="footer__escrita">Whatsapp</p><a>
                 </li>
                 <li>
                     <a class="footer__link" href="https://www.instagram.com/mirabilis3dstudio/" target="_blank"> <img class="footer__redes" src="assets/imagens/instagram.png" alt="instagram"> Mirabilis 3D Studio</a>
