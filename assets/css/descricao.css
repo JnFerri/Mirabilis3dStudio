@@ -29,3 +29,25 @@
     text-align: justify;
 }
 
+@media(max-width:798px){
+    .descricao__container{
+        flex-direction: column;
+        padding: 2rem 1%;
+    }
+
+    .descricao__titulo{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .descricao__titulo-h2{
+        font-size: 100px;
+    }
+
+    .descricao__paragrafos{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}

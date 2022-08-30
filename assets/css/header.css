@@ -46,3 +46,25 @@ header{
     font-size: 28px;
     color: rgb(250, 199, 104);
 }
+
+@media(max-width:798px){
+    .header__container{
+        flex-direction: column;
+        height: 20%;
+    }
+
+    .header__lista{
+        vertical-align: bottom;
+    }
+
+
+    .header__lista li{
+        margin-left: 5px;
+        padding: 2px auto;
+        
+    }
+
+    .header__imagem{
+        height: 50%;
+    }
+}
