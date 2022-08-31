@@ -50,21 +50,26 @@ header{
 @media(max-width:798px){
     .header__container{
         flex-direction: column;
-        height: 20%;
+        justify-content: space-around;
+        height: 100%;
+        position: relative;
+
     }
 
     .header__lista{
         vertical-align: bottom;
+        width: 80%;
+        
     }
 
 
     .header__lista li{
-        margin-left: 5px;
+        margin: 0 15px;
         padding: 2px auto;
         
     }
 
     .header__imagem{
-        height: 50%;
+        height: 100px;
     }
 }
