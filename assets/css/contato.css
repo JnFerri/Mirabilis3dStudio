@@ -128,4 +128,8 @@ border-radius: 5px;
     .contato{
         margin: 0;
     }
+
+    .contato__titulo{
+        margin: 0 0 0 2px;
+    }
 }
