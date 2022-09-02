@@ -33,12 +33,12 @@
             <h2 class="contato__titulo">Contato:</h2>
             <div class="contato__container">
                 
-                <form action="post" class="contato__formulario">
+                <form action="assets/php/postEmail.php" method="post" class="contato__formulario">
                     <p>Entre em contato através de um email :</p>
-                    <input type="name" class="contato__input" placeholder="Nome">
-                    <input type="email" placeholder="Email" class="contato__input">
+                    <input type="name" name="nome" class="contato__input" placeholder="Nome">
+                    <input type="email" name="email" placeholder="Email" class="contato__input">
                     <textarea name="mensagem" id="msg" cols="40" rows="10" placeholder="Mensagem" class="input__msg"></textarea>
-                    <input type="submit" name="Enviar" id="submitForm" class="formulario__botao">
+                    <input type="submit" value="Enviar" id="submitForm" class="formulario__botao">
                 </form>
                 <div class="contato__whats">
                     <img src="assets/imagens/suporte-ao-cliente.png" alt="suporte ao cliente" class="img__contato">
